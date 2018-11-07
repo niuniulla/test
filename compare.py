@@ -2,6 +2,10 @@ import btk
 import numpy as np
 
 class compare:
+    """
+    les techniques de comparaison
+    """
+    
     def __init__(self):
         self.number_markers = 149
     
