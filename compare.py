@@ -2,6 +2,10 @@ import btk
 import numpy as np
 
 class compare:
+    """
+    les techniques de comparaison
+    """
+    
     def __init__(self):
         self.number_markers = 149
     
@@ -133,6 +137,9 @@ class compare:
         """find the averaged euclidean distance of all frames
         """
         return np.clip(self.average_euclidean_dist(c1, c2) / np.mean(self.face_dimension(c1), axis=0) * 100, 0, 100)
+    
+    def funct():
+        print('this is a test.')
     
     
     def log_average_euclidean_dist(self, c1, c2):
