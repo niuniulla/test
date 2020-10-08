@@ -138,6 +138,9 @@ class compare:
         """
         return np.clip(self.average_euclidean_dist(c1, c2) / np.mean(self.face_dimension(c1), axis=0) * 100, 0, 100)
     
+    def funct():
+        print('this is a test.')
+    
     
     def log_average_euclidean_dist(self, c1, c2):
         """find the averaged euclidean distance of all frames
