@@ -1,6 +1,7 @@
 import btk
 import numpy as np
 
+#this is a test
 class compare:
     def __init__(self):
         self.number_markers = 149
